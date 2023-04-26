@@ -1,0 +1,52 @@
+header .nav {
+  display: flex;
+  
+}
+header .nav ul {
+  margin: auto;
+  display: flex;
+  list-style: none;
+}
+header .nav ul a {
+  margin: auto 20px;
+}
+header .nav ul li {
+  margin: auto 15px;
+  font-size: 12px;
+}
+header .var {
+  text-align: center;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  /* background-color: aqua; */
+}
+.container .view {
+  position: absolute;
+  background-size: cover;
+  display: grid;
+}
+.container .view img {
+  height: 580px;
+  width: 100%;
+  object-fit: none;
+}
+.container .view section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.container .view .phone14pro {
+  width: 100%;
+  position: relative;
+}
+.container .view .phone14pro .title {
+  position: absolute;
+  left: 37%;
+  font-size: 50px;
+  color: aliceblue;
+}
