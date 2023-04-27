@@ -1,6 +1,16 @@
+* {
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+
 header .nav {
   display: flex;
-  
+  height: 44px;
+  background-color: rgba(22, 22, 23, .8);
 }
 header .nav ul {
   margin: auto;
@@ -9,25 +19,31 @@ header .nav ul {
 }
 header .nav ul a {
   margin: auto 20px;
+  color: aliceblue;
 }
 header .nav ul li {
   margin: auto 15px;
   font-size: 12px;
+  color: aliceblue;
 }
 header .var {
-  text-align: center;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .var p {
+  font-size: 14px;
 }
 .container {
   height: 100%;
   width: 100%;
   margin: auto;
   position: relative;
-  /* background-color: aqua; */
 }
 .container .view {
   position: absolute;
   background-size: cover;
-  display: grid;
 }
 .container .view img {
   height: 580px;
@@ -42,14 +58,203 @@ header .var {
 
 .container .view .phone14pro {
   width: 100%;
+  margin-bottom: 10px;
   position: relative;
 }
-.container .view .phone14pro .title {
+.container .view .phone14pro .desc {
+  height: 200px;
+  width: 100%;
   position: absolute;
-  left: 37%;
-  font-size: 50px;
-  color: aliceblue;
+  text-align: center;
+  color: #f5f5f7;
+  font-size: 28px;
+  margin-top: 40px;
 }
-.container .view .phone14pro p {
+.container .view .phone14pro .desc .title {
+  font-size: 56px;
+  font-weight: 700;
+}
+.container .view .phone14pro .desc a {
+  font-size: 21px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view .phone14 {
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.container .view .phone14 .desc {
+  height: 200px;
+  width: 100%;
   position: absolute;
+  text-align: center;
+  color: #1d1d1f;
+  font-size: 28px;
+  margin-top: 40px;
+}
+.container .view .phone14 .desc .title {
+  font-size: 56px;
+  font-weight: 700;
+}
+.container .view .phone14 .desc a {
+  font-size: 21px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view .watch {
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.container .view .watch .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #f5f5f7;
+  font-size: 28px;
+  margin-top: 40px;
+}
+.container .view .watch .desc .title {
+  font-size: 56px;
+  font-weight: 700;
+}
+.container .view .watch .desc a {
+  font-size: 21px;
+  margin: 20px;
+  color: #2997ff;
+}
+
+/* section */
+.container .view section {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 50% 50%;
+}
+.container .view section .trane_In{
+  position: relative;
+}
+.container .view section .trane_In .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #1d1d1f;
+  font-size: 21px;
+  margin-top: 40px;
+}
+.container .view section .trane_In .desc .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .view section .trane_In .desc a {
+  font-size: 17px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view section .WWDC23{
+  position: relative;
+}
+.container .view section .WWDC23 .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #f5f5f7;
+  font-size: 21px;
+  bottom: 20px;
+}
+.container .view section .WWDC23 .desc .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .view section .WWDC23 .desc a {
+  font-size: 17px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view section .ipad{
+  position: relative;
+}
+.container .view section .ipad .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #1d1d1f;
+  font-size: 21px;
+  margin-top: 40px;
+}
+.container .view section .ipad .desc .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .view section .ipad .desc a {
+  font-size: 17px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view section .macbookpro{
+  position: relative;
+}
+.container .view section .macbookpro .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #f5f5f7;
+  font-size: 21px;
+  margin-top: 40px;
+}
+.container .view section .macbookpro .desc .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .view section .macbookpro .desc a {
+  font-size: 17px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view section .present{
+  position: relative;
+}
+.container .view section .present .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #1d1d1f;
+  font-size: 21px;
+  margin-top: 40px;
+}
+.container .view section .present .desc .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .view section .present .desc a {
+  font-size: 17px;
+  margin: 20px;
+  color: #2997ff;
+}
+.container .view section .airpodspro{
+  position: relative;
+}
+.container .view section .airpodspro .desc {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: #f5f5f7;
+  font-size: 21px;
+  margin-top: 40px;
+}
+.container .view section .airpodspro .desc .title {
+  font-size: 40px;
+  font-weight: 700;
+}
+.container .view section .airpodspro .desc a {
+  font-size: 17px;
+  margin: 20px;
+  color: #f5f5f7;
 }
